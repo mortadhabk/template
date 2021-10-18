@@ -80,7 +80,11 @@ textarea.notice {
 }
 
 .banner:before {
-	background:linear-gradient(-47deg, #7c4fe0 0%, #4528dc 100%);
+	background-image: url(../../images/banner/background.jpg);
+	filter: blur(8px);
+	-webkit-filter: blur(3px);
+  
+	
 }
 
 .btn,
